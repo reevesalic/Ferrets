@@ -1,0 +1,75 @@
+<!-- Alicia Reeves, 02/02/2020, week 4, Web Design and Development (CIS 373005VA016) -->
+<head>
+  <link rel="stylesheet" type="text/css" href="../Links.html/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<script src="script.js"></script>
+
+<div class="nav">
+  <a href="../Root.html/index.html">Home</a>
+  <a href="../Root.html/history.html">History</a>
+  <a href="../Home.html/caring.html">Ferret Care</a>
+  <a href="../Contact,html/contact.html">Contact</a>
+  <a href="../Root.html/about.html">About</a>
+</div>
+
+<h1>Contact Us</h1>
+<p>
+You can either fill out the form below or send us an <a href="mailto:ferretquestion@gmail.com?subject=Ferret Question&body=">email</a>.</p>
+
+<p> Thank you for visitng our page. If you would like to ask a<br>
+question about ferrets, fill out the information below <br>and submit your question. </p>
+
+<form name="myForm" class="box" onsubmit="return validate()">
+
+<h3> Submit your question</h3>
+  First name:<br>
+  <input type="text" id="name" name="fname"><br>
+
+<br>
+  Last name:<br>
+  <input type="text" id="name" name="lastname"><br>
+<br>
+Please select how many ferrets you have<br>
+ <input type="radio" name="ferret" value="0"> 0<br>
+ <input type="radio" name="ferret" value="1"> 1<br>
+ <input type="radio" name="ferret" value="2"> 2<br>
+<br>
+What gender of ferrets do you currently have?<br>
+ <input type="checkbox" name="gender" value="Male"> Male<br>
+ <input type="checkbox" name="gender" value="Female"> Female<br>
+ <input type="checkbox" name="gender" value="Both"> Both<br>
+ <input type="checkbox" name="gender" value="Unknown"> Unknown<br>
+
+<br>
+  Please type your question here<br>
+ <textarea name="message" rows="10" cols="30">  
+</textarea><br>
+<br>
+
+May we contact you? <br>
+ <input type="radio" name="contact" value="Yes"> Yes
+ <input type="radio" name="contact" value="No"> No<br>
+<br>
+<label for="mail">Please enter your e-mail address:</label>
+  <input type="email" id="mail" name="mail"><br>
+<br>
+Phone Number (optional)<br>
+ <input type="text" number="number"></br>
+<br>
+Preferred method of response<br>
+<select name="Preferred method of response">
+  <option value="Email">Email</option>
+  <option value="Text">Text</option> 
+  <option value="phone">Phone</option>
+</select><br>
+<br>
+<label for="pic">Upload Picture (Optional):</label><br>
+   <input type="file" name="pic" id="pic">
+
+<br>
+<br>
+<button> Submit</button>
+
+</form>
